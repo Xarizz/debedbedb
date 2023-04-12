@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 app.use(bodyParser.json());
 
-const SECRET_KEY = 'your-secret-key';
+const SECRET_KEY = '33595c822eb6d52452e653a39aa109a185642e7d102cf2f300669911a3f5be3a';
 
 
 function validateBearerToken(req, res, next) {
